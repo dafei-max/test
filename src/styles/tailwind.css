@@ -1,3 +1,72 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.canvas-modern {
+  width: 540px;
+  height: 900px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Microsoft YaHei", sans-serif;
+}
+.canvas-modern .title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2a1100;
+  border: 1px solid #c0b7a8;
+  padding: 8px 12px;
+  margin-bottom: 8px;
+  text-align: left;
+}
+.canvas-modern .subtitle {
+  font-size: 28px;
+  color: #2a1100;
+  padding: 8px 12px;
+  border: 1px solid #c0b7a8;
+  margin-bottom: 24px;
+  text-align: left;
+}
+.canvas-modern .editor-note {
+  font-size: 18px;
+  color: #ff8c3a;
+  text-align: justify;
+  padding-left: 100px;
+  position: relative;
+  margin-bottom: 24px;
+}
+.canvas-modern .editor-note::before {
+  content: "编者按：";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.canvas-modern .centered-paragraph {
+  font-size: 18px;
+  color: #2a1100;
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 32px;
+}
+.canvas-modern .image-container {
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+}
+.canvas-modern .article-image {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+  margin-bottom: 8px;
+}
+.canvas-modern .image-caption {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 2px;
+}
+.canvas-modern .image-date {
+  font-size: 14px;
+  color: #999;
+}
