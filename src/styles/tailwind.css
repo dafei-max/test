@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* canvas-modern 自定义样式 */
 .canvas-modern {
   width: 540px;
   height: 900px;
