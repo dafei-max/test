@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 自定义现代简约风样式 */
+/* canvas-modern 自定义样式 */
 .canvas-modern {
   width: 540px;
   height: 900px;
