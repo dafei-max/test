@@ -1,5 +1,5 @@
 {
-  "name": "auto-layout-ai-export-drag",
+  "name": "auto-layout-template-switch",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -11,10 +11,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "framer-motion": "^10.16.4",
-    "lucide-react": "^0.284.0",
     "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.1",
-    "react-draggable": "^4.4.5"
+    "jspdf": "^2.5.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
